@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="demoweb">
+    <output-path>$PROJECT_DIR$/out/artifacts/demoweb</output-path>
+    <root id="archive" name="demoweb.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demoweb" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="demoweb/web/Web" />
+    </root>
+  </artifact>
+</component>
